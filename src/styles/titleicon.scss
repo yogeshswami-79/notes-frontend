@@ -1,0 +1,17 @@
+#icon-title-container{
+    flex: 2;
+    text-align: start;
+    background-clip: text;
+    
+    // -webkit-background-clip: text;
+    // color: transparent;
+    // background-image: linear-gradient(blue, red);
+    color: whitesmoke;
+    cursor: default;
+
+    .icon-title{
+        padding-inline-start: 5vw;
+        font-size: calc( (1vh + 1vw) * (2.4 / 2));
+        font-weight: 600;
+    }
+}

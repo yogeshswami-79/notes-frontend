@@ -1,0 +1,20 @@
+#chips{
+    display: flex;
+    position: fixed;
+
+    width: 100vw;
+    height: 5vh;
+    z-index: 10;
+
+    align-items: center;
+    justify-content: flex-start;
+
+    top: 10vh;
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}

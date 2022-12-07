@@ -1,0 +1,27 @@
+#btn-add-note-container {
+    position: fixed;
+    // top: 85vh;
+    bottom: 50px;
+    right: 50px;
+    z-index: 9;
+    height: 6vh;
+    aspect-ratio: 1;
+    border: 0px solid transparent;
+    border-radius: 50%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+
+
+    color: #00a6fb;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+
+    .btn-add-note{
+        font-weight: 800;
+        font-size: calc( (1vw + 1vh) * (4 / 2));
+    }
+}

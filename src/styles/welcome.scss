@@ -1,0 +1,21 @@
+#welcome{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100vw;
+    height: 92vh;
+    top: 8vh;
+    background-image: linear-gradient(#a8ff78, #78ffd6);
+    
+    .left{
+        height: 100%;
+        flex: 2;
+    }
+    .right{
+        height: 100%;
+        flex: 5;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}

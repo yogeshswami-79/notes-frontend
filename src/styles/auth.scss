@@ -1,0 +1,26 @@
+#auth{    
+    flex: 2;
+    padding: 0 2vw;
+    display: flex;
+    height: 4vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    transition: 0.25s ease-in-out;
+    
+    h5{
+        font-size: calc( (1vw + 1vh) * (1/2));
+        margin-inline: 0.5vw;
+        cursor: pointer;
+    }
+    .icon-logout{
+        font-size: calc( (1vw + 1vh) * (1.4/2));
+        aspect-ratio: 1;
+        cursor: pointer;
+        
+        &:hover{
+            color: rgba($color: rgb(209, 0, 0), $alpha: 1);
+        }
+    }
+}

@@ -1,0 +1,14 @@
+#notes {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5vh;
+
+    height: auto;
+    width: 100vw;
+    top: 7vh;
+}
